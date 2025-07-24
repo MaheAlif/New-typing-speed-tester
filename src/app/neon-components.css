@@ -1,0 +1,11 @@
+.glass-card {
+  @apply bg-glass shadow-glass rounded-2xl backdrop-blur-md ;
+}
+
+.neon-btn {
+  @apply bg-gradient-neon text-white font-bold rounded-xl shadow-neon transition-all duration-200;
+}
+
+.neon-btn:hover {
+  filter: brightness(1.2) drop-shadow(0 0 8px #7F6AFF);
+}
